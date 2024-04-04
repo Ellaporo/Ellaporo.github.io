@@ -1,0 +1,100 @@
+	body { 
+		color: black;
+		background-color: #d9f0ff;
+		/*background: url(https://th.bing.com/th/id/R.46256165c2d4f971627d27799ba43a77?rik=0COLh7gcuM%2f%2fjQ&riu=http%3a%2f%2fclipart-library.com%2fimg%2f1986283.jpg&ehk=%2ffH6cXpEfmddGWTlim5JMd%2fuiOLEflbuFZvcQko4MK0%3d&risl=1&pid=ImgRaw&r=0);
+		background-repeat: repeat;
+		background-position: center 30px; */
+}	
+
+	h1, h2 {
+		font-family: Georgia, Arial, Helvetica, sans-serif;
+}
+
+	h1 {
+		color: #D20F43;
+		text-align: center;
+		font-size: 35px;
+}
+
+	h2 {
+		color: #6f73d2;
+		font-size: 25px;
+		font-weight: bold;
+		
+}
+	h3 {
+		color: #6f73d2;
+		font-family: Georgia, Arial, Helvetica, sans-serif;
+		font-size: 20px;
+		font-weight: normal;
+}
+
+
+    /*	footer {
+ 		 text-align: center;
+  		 padding: 3px;
+ 		 background-color: DarkSalmon;
+ 		 color: white; 
+}	*/
+
+
+	p {
+		color: #1C6FAE;
+		font-family: Georgia, Arial, Helvetica, sans-serif;
+		font-size: 18px;
+		font-weight: normal;
+	
+}
+
+
+
+	li {
+		color: #D3165C;
+		font-family: Georgia, Arial, Helvetica, sans-serif;
+		font-size: 18px;
+		font-weight: normal;
+		
+}
+
+	a {
+		text-decoration: normal;
+}
+
+	a:hover, a:focus {
+		color:#2F0FD3;
+	
+}
+
+	a.link {
+		color: #0e89d6;
+}
+
+	a:visited {
+		color:#D3165C;
+}
+
+	a.active {
+		color:#6f73d2; 
+}
+
+	
+	.pim {
+		display: flex;
+		justify-content: left;
+}
+
+	img {
+
+}
+
+	.image {
+		flex-basis: 20%
+}
+
+	.text {
+		font-size: 20px;
+		padding-left: 20px;
+		margin-left: 40px;	
+}	
+
+
