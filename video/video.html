@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="video.css"
+
+</head>
+<body>
+    
+    <section class="wrapper-main">
+
+    <video class="my-video" src="videos/lebron.mp4" width="900" controls poster="videos/1024x714_px-803083.jpg!d" >
+        <! --
+        <source src="videos/lebron.mp4" type="video/mp4">
+        <source src="videos/lebron.oog" type="video/oog">
+        <source src="videos/lebron.webm" type="video/webm">
+        Hejsan, sun selain ei supporttaa html5 videoi  -->
+
+    </video>
+
+    <br>
+    <button onclick="playPause()">Play/Pause</button>
+    <button onclick="halfSize()">Half size</button>
+    <button onclick="normalSize()">Normal size</button>
+
+    <h2 onclick="playPause()">Tää pelaa tai pausee videon</h2>
+
+    </section>
+
+    <script>
+        let myVideo = document.querySelector(".my-video");
+
+        function playPause() {
+            if (myVideo.paused) {
+                myVideo.play();
+            }
+            else {
+                myVideo.pause();
+            }
+        }
+
+        function halfSize() {
+           myVideo.width = "450";
+        }
+
+        function normalSize() {
+           myVideo.width = "900";
+        }
+
+
+    </script>
+
+</body>
+</html>

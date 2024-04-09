@@ -1,0 +1,42 @@
+.header-main {
+    width: 100%;
+    height: 60px;
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: normal;
+    /*row-gap ja column-gap*/
+
+
+    
+}
+
+.header-main div {
+    height: 30px;
+}
+
+.header-main .div-1 {
+    width: 400px;
+    background-color: #00eeff;
+    order: 1;
+    flex-basis: 500px;
+    
+}
+
+.header-main .div-2 {
+    width: 400px;
+    background-color: #0d66ec;
+    order: 2;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+.header-main .div-3 { 
+    width: 400px;  
+    background-color: #ee0d58;
+    order: 3;
+    flex-basis: 100px;
+    flex-grow: 2;
+}

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body {
+    background-color: #111;
+}
+
+.wrapper-main{
+    width: 900px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 10 px 16 px
+    background-color: #fff;
+    font-size: 20px;
+    font-family: Roboto;
+    border-radius: 20px;
+    cursor: pointer;f
+
+}
