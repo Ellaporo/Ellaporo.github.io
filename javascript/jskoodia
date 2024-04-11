@@ -1,0 +1,58 @@
+
+<script type="text/javascript">
+    console.log('hei moi terehys');
+    var favColor = 'blue';
+    var myFavColors = ['blue', 'purple', 'red'];
+    var numOfFavColors = '3';
+    var hasGotFavColors = true;
+    var ellaObject = {
+        firstName: 'Ella', 
+        lastName: 'Järvinen',
+        favColors: ['blue', 'purple', 'red']
+         ,
+         yearsAlive: 69,
+         isMale: false
+    };
+
+    var area = function (width, height) {
+        return width * height;
+    }
+
+    if (true) {
+        alert('male');
+    };
+
+    var number1 = 10;
+    var number2 = 100;
+
+    if (number1 > number2) {
+        alert('true');
+    } else {
+        alert ('false')
+    }
+
+    var name1 = 'Ella';
+    var name2 = 'Järvinen';
+
+    if (name1 == 'Ella') {
+        alert('true 1');
+    } else if (name2 == 'Järvinen') {
+        alert('true 2');
+    } else {
+        alert('false');
+    }
+
+    var name1 = 'Ella';
+    var name2 = 'Sarita';
+
+    if (name1 == 'Ella' && name2 == 'Sarita') 
+         {
+        alert('true 1');
+    } else if (name2 == 'Ella') {
+        alert('true 2');
+    } else {
+        alert('false');
+    }
+    // && = ja, || = tai
+
+</script>
