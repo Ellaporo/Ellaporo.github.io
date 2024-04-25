@@ -1,5 +1,5 @@
 	body { 
-		color: #1C6FAE;
+		color: #000000;
 		background-color: #d9f0ff;
 		background: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-19670.jpg&fm=jpg&_gl=1*1q605ve*_ga*MzA3MDUwOTA5LjE3MTIyOTU5OTY.*_ga_8JE65Q40S6*MTcxMjI5NTk5NS4xLjEuMTcxMjI5NjAxNS4wLjAuMA..);
 		background-repeat: repeat;
@@ -10,22 +10,23 @@
 }
 
 	h1 {
-		color: #f81f6e;
+		color: #000000;
 		text-align: center;
 		font-size: 35px;
 }
 
 	h2 {
-		color: #6f73d2;
+		color: #000000;
 		font-size: 25px;
 		font-weight: bold;
 		
 }
 	h3 {
-		color: #6f73d2;
+		color: #000000;
 		font-family: Georgia, Arial, Helvetica, sans-serif;
 		font-size: 20px;
-		font-weight: normal;
+		font-weight: bold;
+		font-style: italic;
 }
 
 
@@ -38,7 +39,7 @@
 
 
 	p {
-		color: #1C6FAE;
+		color: #000000;
 		font-family: Georgia, Arial, Helvetica, sans-serif;
 		font-size: 18px;
 		font-weight: normal;
@@ -46,12 +47,13 @@
 }
 
 	ul {
-		color: #f81f6e;
+		color: #000000;
+		margin-left: 40px;
 
 	}
 
 	li {
-		color: #1C6FAE;
+		color: #000000;
 		font-family: Georgia, Arial, Helvetica, sans-serif;
 		font-size: 18px;
 		font-weight: normal;
@@ -63,34 +65,31 @@
 }
 
 	a:hover, a:focus {
-		color:#2F0FD3;
+		color:rgb(0, 68, 255);
 	
 }
 
 	a.link {
-		color: #0e89d6;
+		color: rgb(0, 68, 255);;
 }
 
 	a:visited {
-		color:#D3165C;
+		color:rgb(0, 68, 255);
 }
 
 	a.active {
-		color:#6f73d2; 
+		color:rgb(0, 68, 255); 
 }
 
-	
-	.pim {
+	.container {
 		display: flex;
 		justify-content: left;
-}
-
-	img {
-
+		margin-left: 50px;
 }
 
 	.image {
 		flex-basis: 20%
+		
 }
 
 	.text {
