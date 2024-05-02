@@ -1,5 +1,6 @@
 .left {
-    background-color: rgb(217, 183, 255);
+   /* background-color: rgb(255, 171, 87); */
+    background-color: rgb(163, 219, 238);
     position: fixed;
     width: 50%;
     height: 100%;
@@ -8,16 +9,17 @@
 }
 
 .right {
-    background-color: lavender;
+   /* background-color: lavender; */
+    background-image: url('../img/background4.jpg');
     position: fixed;
-    width: 50%;
+    width: 70%;
     height: 100%;
     top: 0;
     right: 0;
 }
 
 .ground {
-    background-color: lightgreen;
+    background-color:rgb(255, 113, 31);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -26,13 +28,43 @@
 
 }
 
+.mammamia {
+    position: absolute;
+    bottom: 200px;
+    left: 55%;
+    background: url('../img/mammamia-removebg-preview.png') no-repeat 0 0;
+    width: 442px; 
+    height: 341px;
+    margin-left: 10px ;
+    display: none;
+}
+.mammamia.show {
+    display: block;
+}
+
+.vedäkäteen {
+    position: absolute;
+    bottom: 220px;
+    left: 50%;
+    background: url('../img/vedäkäteen.png') no-repeat 0 0;
+    width: 245px;
+    height: 256px;
+    margin-left: -350px ;
+    display: none;
+}
+
+.vedäkäteen.show {
+    display: block;
+}
+
 .rocket {
     position: absolute;
     left: 50%;
-    bottom: 20px;
-    width: 40px;
-    height: 170px;
-    background-color: purple;
+    bottom: -10px;
+    width: 246px;
+    height: 305px;
+    margin-left: -150px ;
+    background: url('../img/marjo1-removebg-preview.png');
     transition: bottom  5000ms;
 }
 
@@ -40,10 +72,23 @@ body.body-state1 .rocket {
     transition: none;
 }
 
+/*rocket bg image*/
+body.body-state2 .rocket {
+    background-image: url('../img/marjo2-removebg-preview.png');
+    width: 266px;
+    height: 304px;
+}
+
 body.body-state3 .rocket,
 body.body-state4 .rocket {
     bottom: 1000px;
+    background-image: url('../img/marjo2-removebg-preview.png');
+}
 
+body.body-state5 .rocket {
+    background-image: url('../img/kaboom.gif');
+    width: 200px;
+    height: 200px;
 }
 
 a.button {
