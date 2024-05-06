@@ -17,7 +17,6 @@ var changeState = function (state) {
             document.getElementById('countdown').innerHTML
              = countdownNumber;
 
-             // VIDEO KOHTA 22:54 TÄHÄN KOHTAAN JÄITT LOL
             if (countdownNumber > 3 && countdownNumber <= 6) {
                 // be mammamia
                 document.getElementById('mammamia').className = 'mammamia show';
@@ -49,7 +48,7 @@ var changeState = function (state) {
                     changeState(4);
 
                 } else {
-                    changeState(5)
+                    changeState(5) //failure
                 }
         }, 2000);
     };
