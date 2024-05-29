@@ -65,6 +65,7 @@ ul li {
     background-color: darkblue;
 }
 
+/*sisältö kuvan viereen*/
 .container-2 {
     display: flex;
     padding-top: 80px;
@@ -90,3 +91,53 @@ ul li {
     word-spacing: 30px;
 
 }
+/*sisältö kuvan viereen loppuu*/
+
+/*Koulutus ja kurssit sivu*/
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.container3 {
+    font-size: x-large;
+    margin-left: 50px;
+}
+
+/* skill taulukko*/
+* {box-sizing: border-box}
+
+.skill-taulukko {
+    margin-right: 50px;
+}
+ 
+.container4 {
+    width: 95%;
+    background-color: #F1EBE4;
+}
+ 
+.skills {
+    text-align: right;
+    padding-bottom: 10px;
+    color: white;
+}
+ 
+.html {
+    width: 40%;
+    background-color: #4c00ff;
+    height: 25px;
+}
+.css {
+    width: 30%;
+    background-color: #3e3bff;
+    height: 25px;
+}
+ 
+.js {
+    width: 15%;
+    background-color: #7bc4ff;
+    height: 25px;
+}
+/*skill taulukko loppuu*/
+/*Koulutus ja kurssit sivu loppuu*/
