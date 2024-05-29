@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color: rgb(188, 182, 212);
     margin: 0px;
     padding: 0px;
 }
@@ -13,9 +13,17 @@ h3  {
     
 }
 
-ul li {
-    display: inline;
+h4 {
+    font-size: 20px;
 }
+
+p {
+    font-size: 18px;
+}
+
+ /*ul li {
+    display: inline;
+} */
 
 
 .header-main {
@@ -46,6 +54,10 @@ ul li {
 .div-2 {
     display: flex;
     margin-right: 10px;
+}
+
+.div-2 ul li {
+    display: inline;
 }
 
 .button {
@@ -101,15 +113,24 @@ ul li {
 }
 
 .container3 {
-    font-size: x-large;
-    margin-left: 50px;
+    font-size: ;
+    margin-left: 90px;
+
+}
+
+.kurssit {
+    margin-right: 50%;
+}
+
+.kurssit ul li {
+    list-style-type: square;
 }
 
 /* skill taulukko*/
 * {box-sizing: border-box}
 
 .skill-taulukko {
-    margin-right: 50px;
+    margin-right: 70px;
 }
  
 .container4 {
