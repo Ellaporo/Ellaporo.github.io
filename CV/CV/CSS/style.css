@@ -162,3 +162,49 @@ p {
 }
 /*skill taulukko loppuu*/
 /*Koulutus ja kurssit sivu loppuu*/
+
+/*yhteystiedot sivu*/
+
+.container5 {
+    display: flex;
+}
+
+.teksti {
+    margin-left: 7%;
+    padding-top: 260px;
+}
+
+.tiedot {
+    display: block;
+    padding-left: 20%;
+    padding-top: 100px;
+    padding-right: 15%;
+    
+}
+
+
+.email {
+    background-color: white; 
+    width: 500px;
+    height: 150px;
+}    
+
+.numero {
+    background-color: white;
+    width: 500px;
+    height: 150px;
+}
+
+.linkedin {
+    background-color: white;
+    width: 500px;
+    height: 150px;
+}
+
+.linkit {
+    display: flex;
+    padding: 70px;
+    padding-left: 35%;
+}
+
+/*yhteystiedot sivu loppuu*/
