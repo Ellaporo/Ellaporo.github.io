@@ -2,6 +2,7 @@ body {
     background-color: rgb(188, 182, 212);
     margin: 0px;
     padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h2 {
@@ -96,6 +97,7 @@ p {
     margin-left: 40px;
     margin-right: 200px;
     display: block;	
+    background-color: rgb(225, 221, 247);
 }	
 
 .icons {
@@ -115,11 +117,14 @@ p {
 .container3 {
     font-size: ;
     margin-left: 90px;
+    background-color: rgb(225, 221, 247);
+    padding: 20px;
+    margin-top: 30px;
 
 }
 
 .kurssit {
-    margin-right: 50%;
+    
 }
 
 .kurssit ul li {
@@ -131,11 +136,12 @@ p {
 
 .skill-taulukko {
     margin-right: 70px;
+    margin-left: 30%;
 }
  
 .container4 {
     width: 95%;
-    background-color: #F1EBE4;
+    background-color: rgb(224, 220, 255);
 }
  
 .skills {
@@ -161,6 +167,15 @@ p {
     height: 25px;
 }
 /*skill taulukko loppuu*/
+
+.digitaidot {
+    margin-top: 50px;
+    margin-right: 40px;
+    background-color: rgb(225, 221, 247);
+    padding: 20px;
+
+}
+
 /*Koulutus ja kurssit sivu loppuu*/
 
 /*yhteystiedot sivu*/
@@ -185,19 +200,19 @@ p {
 
 
 .email {
-    background-color: white; 
+    background-color: rgb(225, 221, 247); 
     width: 500px;
     height: 150px;
 }    
 
 .numero {
-    background-color: white;
+    background-color: rgb(225, 221, 247);
     width: 500px;
     height: 150px;
 }
 
 .linkedin {
-    background-color: white;
+    background-color: rgb(225, 221, 247);
     width: 500px;
     height: 150px;
 }
