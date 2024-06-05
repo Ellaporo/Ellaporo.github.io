@@ -1,0 +1,30 @@
+body {
+    font-family: ;
+    text-align: justify;
+    max-width: 600px;
+    margin: 0 auto; 
+}
+
+.text {
+    font-size: 24px;
+
+}
+
+.moretext {
+    display: none;
+
+}
+
+.read-more-btn {
+    padding: 15px 60px;
+    background-color: red;
+    color: blue;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.text.show-more .moretext {
+    display: inline;
+}
