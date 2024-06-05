@@ -1,11 +1,14 @@
-const readMoreBtn = document.querySelector('.read-more-btn');
-const text = document.querySelector('.text');
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-readMoreBtn.addEventListener('click',(e)=>{
-    text.classList.toggle('show-more');
-    if(readMoreBtn.innerText === 'Read More'){
-        readMoreBtn.innerText = 'Read Less';
-    }else{
-        readMoreBtn.innerText = 'Read More';
-    }
-})
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
