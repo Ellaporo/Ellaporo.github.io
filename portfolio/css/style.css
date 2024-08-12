@@ -1,0 +1,142 @@
+@import "utilities.css";
+:root {
+    --primary : #A63F8A;
+    --pure : #fff;
+    --dark : #232326;
+}
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: var(--dark);
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%) ;
+}
+
+.container {
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a {
+    color: var(--pure);
+    margin-right: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+header nav .left a:hover {
+    color: var(--primary);
+}
+
+
+header nav {
+    padding: 2rem 0;
+}
+
+header nav .branding {
+    margin-right: 10rem;
+}
+
+.hero {
+    padding-bottom: 5rem;
+}
+
+.hero .left img {
+    width: 400px;
+    border-radius: 500px ;
+}
+
+.hero .right {
+    color: var(--pure);
+    margin-top: -5rem;
+}
+.hero .right h6 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.hero .right h1 {
+    font-size: 4rem;
+    font-weight: 200;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+.hero .right h1 span {
+    color: var(--primary);
+}
+
+.about {
+    padding: 3rem 0;
+}
+.about .social a img {
+    height: 30px;
+    margin-top: 1rem;
+    margin-right: 10px;
+}
+.about .left img {
+    height: 500px;
+    border-radius: 1000px;
+}
+.about .right h1 {
+    font-size: 50px;
+
+}
+.about .right h1 span{
+    font-size: 50px;
+    color: var(--primary);
+}
+.about .right h3 {
+    font-size: 20px;
+    line-height: 3;
+    
+}
+.about .right p {
+    font-size: 20px;
+}
+
+.skills {
+    background: var(--dark);
+}
+.skills .section-heading {
+    color: var(--pure);
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.skills .section-heading span {
+    color: var(--primary);
+}
+.section-heading + p {
+    color: var(--pure);
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+.skills .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 6rem;
+}
+.skills .card-wrapper .card {
+    background: var(--pure);
+    padding: 3rem 2rem;
+    position: relative;
+}
+
+.card-wrapper img {
+    height: 100px;
+    position: absolute;
+    top: -3.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
