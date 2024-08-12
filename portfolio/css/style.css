@@ -118,7 +118,7 @@ header nav .branding {
 .section-heading + p {
     color: var(--pure);
     text-align: center;
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
 }
 
 .skills .card-wrapper {
@@ -140,3 +140,5 @@ header nav .branding {
     left: 50%;
     transform: translateX(-50%);
 }
+
+/*skillshare video 17.35, lesson7*/
