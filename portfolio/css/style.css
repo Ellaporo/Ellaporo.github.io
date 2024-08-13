@@ -105,6 +105,22 @@ header nav .branding {
 
 .skills {
     background: var(--dark);
+    clip-path: polygon(
+        74% 7%,
+        100% 0,
+        100% 35%,
+        100% 70%,
+        100% 100%,
+        50% 100%,
+        0 100%,
+        0% 70%,
+        0% 35%,
+        0 0
+    );
+}
+
+.skills .container {
+    padding-top: 100px;
 }
 .skills .section-heading {
     color: var(--pure);
@@ -131,6 +147,11 @@ header nav .branding {
     background: var(--pure);
     padding: 3rem 2rem;
     position: relative;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.skills .card-wrapper .card h2 {
+    margin-bottom: 1rem ;
 }
 
 .card-wrapper img {
@@ -141,4 +162,11 @@ header nav .branding {
     transform: translateX(-50%);
 }
 
-/*skillshare video 17.35, lesson7*/
+.skills .card-wrapper .card:hover {
+    background: var(--primary) ;
+}
+
+.slider .slide img{
+    width: 500px;
+    height: 280px;
+}
