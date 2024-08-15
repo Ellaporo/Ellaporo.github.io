@@ -421,8 +421,9 @@ footer .footer-text {
     }
 }
 
-@media (max-width:273px) {
+/*@media (max-width:273px) {
     .contact .card-wrapper h4 {
         font-size: 0.9rem;
     }
-}
+} */
+
