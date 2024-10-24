@@ -14,23 +14,70 @@
 </div>
 
 <div class="container mt-3">
-    <form action="/action_page.php">
+  <form action="/action_page.php">
       <div class="mb-3 mt-3">
-        <label for="email">Email:</label>
-        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      <label for="Date" class="form-label">Päivämäärä</label>
+      <input type="date" class="form-control" id="Date" placeholder="pp.kk.vvvv" name="Date">
       </div>
-      <div class="mb-3">
-        <label for="pwd">Password:</label>
-        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
-      </div>
-      <div class="form-check mb-3">
-        <label class="form-check-label">
-          <input class="form-check-input" type="checkbox" name="remember"> Remember me
-        </label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
   </div>
+
+  <div class="container mt-3">
+      <form action="/action_page.php">
+          <label for="appt">Tapahtuman ajankohta:</label>
+          <br>
+          <input type="time" id="appt" name="appt">
+      </form>
+  </div>
+
+  <div class="container mt-3">
+      <div class="form-group">
+          <label for="exampleFormControlTextarea1">Tapahtuman Kuvaus</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+  </div>
+
+
+
+      <br>
+
+      <div class="container mt-3">
+      <div class="mb-3">
+          <label for="Time" class="form-label">Havainnon tekijän nimi:</label>
+          <input type="text" class="form-control" id="Name" name="Name">
+      </div>
+  </div>
+
+      <div class="container mt-3">
+      <div class="mb-3">
+          <label for="Time" class="form-label">Sähköpostiosoite:</label>
+          <input type="email" class="form-control" id="email" name="email">
+      </div>
+  </div>
+
+      <div class="container mt-3">
+      <div class="mb-3">
+          <label for="Tele" class="form-label">Puhelinnumero</label>
+          <br>
+          <input type="text" classs="form-control" id="Number" placeholder="Lisää Puhelinnumero" onkeypress="return /[0-9]/i.test(event.key)" name="Tele" >
+
+      </div>
+      </div>
+
+
+
+      <div class="container mt-3">
+      <div class="form-check mb-3">
+      <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+      </div>
+  </div>
+
+  <div class="container mt-3">
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  </div>
+
   
 
 </body>
