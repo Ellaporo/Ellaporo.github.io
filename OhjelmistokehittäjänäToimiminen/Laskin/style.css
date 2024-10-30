@@ -53,17 +53,17 @@ button {
     height: 100px;
     border-radius: 10px;
     border: none;
-    background-color: hsl(226, 100%, 67%);
+    background-color: hsl(286, 32%, 58%);
     color: white;
     font-size: 3rem;
     font-weight: bold;
     cursor: pointer;
 }
 button:hover {
-    background-color: hsl(226, 64%, 52%);
+    background-color: hsl(286, 24%, 51%);
 }
 button:active {
-    background-color: hsl(226, 64%, 52%);
+    background-color: hsl(286, 24%, 51%);
 }
 .operator-btn {
     background-color: hsl(226, 100%, 67%);

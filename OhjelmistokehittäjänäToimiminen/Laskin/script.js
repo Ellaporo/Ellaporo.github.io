@@ -16,3 +16,8 @@ function calculate(){
         display.value = "Error";
     }
 }
+
+function Back() {
+    const display = document.getElementById('display');
+    display.value = display.value.slice(0, -1); 
+}
